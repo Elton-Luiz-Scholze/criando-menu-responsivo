@@ -23,13 +23,16 @@
     background-color: var(--background-page);
 }
 
+
 .container__menu__input{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 60px;
     width: 100%;
+    animation: animacaoMenu .5s ease;
 }
+
 
 .menu{
     display: flex;
@@ -91,6 +94,17 @@
 
 .hidden{
     display: none;
+}
+
+@keyframes animacaoMenu{
+    0%{
+        opacity: 1;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(10px)
+    }
 }
 
 @media (min-width: 768px) {
