@@ -1,0 +1,21 @@
+body, header, h1, p, ul, li, img, input{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --title: #364FC7;
+    --li-text-1: #212529;
+    --li-text: #868E96;
+    --input-text: #ADB5BD;
+    --border: #E9ECEF;
+    --background-inputs: #F1F3F5;
+    --background-mobile-li-text-1: #F8F9FA;
+    --background-page: #FFFFFF;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
