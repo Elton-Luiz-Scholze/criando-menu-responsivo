@@ -114,11 +114,13 @@
 
     .container__menu__input{
         position: static;
+        display: flex;
         flex-direction: row;
         align-items: center;
         height: 100%;
         width: 85%;
         gap: .5rem;
+        animation: none;
     }
 
     .logo{
@@ -126,6 +128,7 @@
     }
 
     .menu{
+        display: flex;
         flex-direction: row;
         width: 50%;
         height: 100%;
@@ -149,6 +152,7 @@
     }
 
     .usuario{
+        display: flex;
         height: 100%;
         width: 10%;
     }
